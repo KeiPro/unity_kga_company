@@ -90,6 +90,8 @@ public class UGSLobbyService
             catch (Exception e)
             {
                 Debug.Log("Failed to send heartbeat: " + e.Message);
+                StopHeartbeat();
+                return;
             }
         }
     } 

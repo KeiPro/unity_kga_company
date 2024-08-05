@@ -14,6 +14,9 @@
 Assets/ModularPrisonPack*
 Assets/AssetStore/
 
+# Baked Lighting can get excessive in size
+Assets/Scenes/GameScene*
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
